@@ -1,11 +1,15 @@
-# SRA Scoring – tietosuojaseloste
+# Alpha² – SRA Scoring – tietosuojaseloste
 
-Päivitetty: 28.5.2026
+Päivitetty: 1.6.2026
 
-Tämä seloste kuvaa, miten SRA Scoring -sovellus käsittelee henkilötietoja.
-Sovellus toimii kokonaan käyttäjän laitteella eikä lähetä tietoja
-verkkoon. Sovelluksessa ei ole mainoksia, ei käyttäjäseurantaa eikä
-kolmansien osapuolten työkaluja.
+Tämä seloste kuvaa, miten **Alpha² – SRA Scoring** -sovellus käsittelee
+henkilötietoja. Sovellus toimii kokonaan käyttäjän laitteella eikä
+lähetä tietoja verkkoon. Sovelluksessa ei ole mainoksia, ei käyttäjä-
+seurantaa eikä kolmansien osapuolten työkaluja.
+
+> Laitteen aloitusnäytöllä sovellus näkyy nimellä **Alpha²**.
+> *Alpha² – SRA Scoring* on Play Storen virallinen julkaisunimi.
+> Nämä ovat sama sovellus.
 
 ## Rekisterinpitäjä
 
@@ -48,7 +52,7 @@ tahoille. Sovellus ei käytä Internet-yhteyttä.
 
 Käyttäjä voi viedä omaa dataa JSON-muotoon valitsemaansa paikkaan
 (esim. pilvitallennukseen tai muulle laitteelle). Vientipaikan
-tietosuojakäytännöistä vastaa kyseinen palvelu, ei SRA Scoring.
+tietosuojakäytännöistä vastaa kyseinen palvelu, ei Alpha².
 
 ## Käsittelyn oikeusperuste
 

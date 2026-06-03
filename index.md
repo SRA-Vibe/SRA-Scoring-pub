@@ -1,5 +1,9 @@
 # Alpha² – SRA Scoring – tietosuojaseloste
 
+> **Huom:** Alpha² on itsenäisen kehittäjän tekemä sovellus. Se ei ole
+> Reserviläisurheiluliiton (ResUL) tai SRA:n virallinen tai hyväksymä
+> sovellus, vaikka se on yhteensopiva SRA 8.1 -kilpailusääntöjen kanssa.
+
 Päivitetty: 1.6.2026
 
 Tämä seloste kuvaa, miten **Alpha² – SRA Scoring** -sovellus käsittelee

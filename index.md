@@ -4,7 +4,7 @@
 > Reserviläisurheiluliiton (ResUL) tai SRA:n virallinen tai hyväksymä
 > sovellus, vaikka se on yhteensopiva SRA 8.1 -kilpailusääntöjen kanssa.
 
-Päivitetty: 1.6.2026
+Päivitetty: 4.6.2026
 
 Tämä seloste kuvaa, miten **Alpha² – SRA Scoring** -sovellus käsittelee
 henkilötietoja. Sovellus toimii kokonaan käyttäjän laitteella eikä
@@ -86,6 +86,39 @@ itse:
   sovelluksessa.
 - **Poisto-oikeus:** yksittäisiä tietoja voi poistaa sovelluksen
   kautta. Koko datan saa pois poistamalla sovelluksen.
+
+## Tietojen poistaminen
+
+Tämä koskee sovellusta **Alpha² – SRA Scoring** (kehittäjä: Niitti).
+
+Sovellus toimii kokonaan laitteellasi. Kehittäjä **ei kerää, vastaanota,
+siirrä eikä säilytä** tietojasi millään palvelimella, joten kehittäjällä
+ei ole sinusta dataa, jota voisi erikseen pyytää poistettavaksi. Hallitset
+tietojasi itse laitteella seuraavasti.
+
+**Miten poistat tietosi**
+
+- **Yksittäiset tiedot:** poista kilpailuja, ampujia tai muita tietoja
+  suoraan sovelluksessa.
+- **Kaikki sovelluksen data kerralla:** Android-asetukset → Sovellukset →
+  *Alpha²* → Tallennustila → **Tyhjennä tiedot**. Tämä poistaa kaikki
+  sovelluksen tallentamat tiedot välittömästi.
+- **Koko sovellus ja sen data:** poista sovellus (*uninstall*). Tämä
+  poistaa kaikki sovelluksen tallentamat tiedot laitteelta.
+- **Itse tekemäsi varmuuskopiot:** jos olet vienyt dataa JSON-tiedostoksi
+  (Varmuuskopiointi-toiminto), poista kyseiset tiedostot itse siitä
+  paikasta, johon tallensit ne (esim. laitteen muisti tai pilvitallennus).
+
+**Mitä poistetaan ja mitä säilytetään**
+
+- **Poistetaan:** kaikki sovelluksen tallentamat tiedot — käyttäjäprofiili
+  (nimi, seura, mahdollinen SRA-jäsennumero, oletusluokka), kilpailut,
+  rastit, ampujat, pisteet, ajat, erikoistilat ja asetukset.
+- **Säilytetään:** ei mitään kehittäjän tai palvelimen toimesta. Koska
+  tiedot ovat vain laitteellasi eikä niitä lähetetä mihinkään, tietojen
+  tyhjennys tai sovelluksen poisto poistaa ne **välittömästi ja
+  pysyvästi**. Palvelinpuolen säilytysaikaa ei ole (kehittäjä ei säilytä
+  kopiota).
 
 ## Lapset
 

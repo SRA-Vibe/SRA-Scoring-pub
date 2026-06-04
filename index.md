@@ -58,6 +58,21 @@ Käyttäjä voi viedä omaa dataa JSON-muotoon valitsemaansa paikkaan
 (esim. pilvitallennukseen tai muulle laitteelle). Vientipaikan
 tietosuojakäytännöistä vastaa kyseinen palvelu, ei Alpha².
 
+## Diagnostiikka- ja kaatumisloki
+
+Jos sovellus kaatuu, se kirjoittaa laitteelle paikallisen
+diagnostiikkalokin vianetsintää varten. Loki sisältää **vain teknisiä
+tietoja**: sovelluksen version, Android-version, laitteen mallin,
+aikaleiman ja virheen teknisen kuvauksen (stack trace). **Loki ei
+sisällä kilpailutietoja, ampujien nimiä eikä muuta henkilödataa.**
+
+Loki tallentuu vain laitteelle eikä sitä lähetetä automaattisesti
+mihinkään. Voit halutessasi viedä lokin sovelluksen
+Varmuuskopiointi-näkymän "Vie diagnostiikkaloki" -toiminnolla ja jakaa
+sen kehittäjälle vianselvitystä varten — tämä tapahtuu täysin omasta
+aloitteestasi. Loki poistuu samalla kun poistat sovelluksen tai
+tyhjennät sen tiedot.
+
 ## Käsittelyn oikeusperuste
 
 Tietojen käsittely perustuu käyttäjän suostumukseen, jonka käyttäjä
